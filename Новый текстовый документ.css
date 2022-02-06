@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.window {
+    max-width: 1280px;
+    position: relative;
+    margin: 0 auto;
+}
+.header {
+    background-image: url("img/Background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    border-bottom: oldlace 1px solid;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+.nav .navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.nav .navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+.nav .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-family: "raleway", sans-serif;
+    font-size: 17px;
+    line-height: 55px;
+    font-weight: 600;
+    background: none;
+}
+.nav .navbar a {
+    width: 110px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "raleway", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    background: #4793ce ;
+    margin-left: 35px;
+    margin-right: 10px;
+}
+.hdContent {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.hdContent .hdText {
+    padding-top: 260px;
+    padding-bottom: 210px;
+    text-align: left;
+    color: white;
+}
+.hdContent .hdText h1 {
+    font-family: "roboto slab", sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.hdContent .hdText p {
+    font-size: 26px;
+    font-family: "raleway", sans-serif;
+    font-weight: 500;
+    width: 540px;
+    padding-bottom: 75px;
+}
+.hdContent .hdText .playStore {
+    display: flex;
+}
+.hdContent .hdText .playStore a {
+    display: block;
+    width: 240px;
+    height: 80px;
+    line-height: 75px;
+    text-align: center;
+    background-color: #4793ce;
+    border-radius: 15px;
+    font-family: "raleway", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+.hdContent .hdImage {
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+.mainOurServicesTitle {
+    padding-top: 100px;
+    padding-bottom: 90px;
+    text-align: center;
+    font-family: "roborto slab", sans-serif;
+}
+.mainOurServicesTitle p {
+    font-size: 18px;
+    color: #7c7c7c;
+}
+.mainOurServicesTitle h1 {
+    font-size: 24px;
+    color: #494949;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+.mainOurServicesTitle .line {
+    width: 30px;
+    height: 3px;
+    background-color: #2eafeb;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.mainOurServicesContent {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 280px;
+}
+.mainOurServicesContent .mainOurServicesContentBox {
+    width: 32%;
+    text-align: center;
+    font-family: "raleway", sans-serif;
+}
+.mainOurServicesContent .mainOurServicesContentBox .imgBox {
+    height: 105px;
+    padding-bottom: 45px;
+}
+.mainOurServicesContent .mainOurServicesContentBox h2 {
+    font-weight: bold;
+    font-style: 18px;
+    padding-bottom: 25px;
+}
+.mainOurServicesContent .mainOurServicesContentBox p {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 180%;
+    color: #7c7c7c;
+    font-weight: 500;
+}
+.mainCusternizationContent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+.mainCusternizationContent .mainCusternizationPic {
+    position: relative;
+}
+.mainCusternizationContent .mainCusternizationPic img {
+    position: absolute;
+    left: -440px;
+    display: block;
+}
+.mainCusternizationContent .mainCusternizationText {
+    font-family: "raleway", sans-serif;
+    width: 50%;
+    padding-bottom: 75px;
+}
+.mainCusternizationContent .mainCusternizationText h3 {
+    color: #939393;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+.mainCusternizationContent .mainCusternizationText h1 {
+    color: #494949;
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+.mainCusternizationContent .mainCusternizationText p {
+    font-size: 20px;
+    color: #7c7c7c;
+    width: 510px;
+    padding-bottom: 60px;
+}
+.mainCusternizationContent .mainCusternizationText ul li {
+    list-style: none;
+    display: flex;
+    padding-bottom: 20px;
+}
+.mainCusternizationContent .mainCusternizationText ul li p {
+    font-size: 14px;
+    padding: 0;
+    padding-left: 20px;
+}
+.mainCusternizationContent .mainCusternizationText ul li img {
+    display: block;
+}
+.mainCusternizationContent .mainCusternizationText a {
+    display: block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #65d3f3;
+    margin-left: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.mainOtherTitle {
+    text-align: center;
+    font-family: "roborto slab", sans-serif;
+    padding-bottom: 110px;
+}
+.mainOtherTitle h3 {
+    color: #7c7c7c;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.mainOtherTitle h1 {
+    text-transform: uppercase;
+    color: #494949;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.mainOtherTitle .line {
+    width: 30px;
+    height: 3px;
+    background-color: #2eafeb;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.mainOtherContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.mainOtherContent .mainOtherContentBox {
+    width: 33%;
+    display: flex;
+    padding-bottom: 115px;
+}
+.mainOtherContent .mainOtherContentBox .mainOtherContentIcon img {
+    margin-left: 15px;
+}
+.mainOtherContent .mainOtherContentBox .mainOtherContentBoxText {
+    padding-left: 20px;
+    font-family: "raleway", sans-serif;
+}
+.mainOtherContent .mainOtherContentBox .mainOtherContentBoxText h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #494949;
+    padding-bottom: 20px;
+}
+.mainOtherContent .mainOtherContentBox .mainOtherContentBoxText p {
+    color: #7c7c7c;
+    font-size: 14px;
+    line-height: 180%;
+    width: 250px;
+}
+.mainSay {
+    background-image: url("img/bgf.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mainSayTitle {
+    text-align: center;
+    font-family: "roborto slab", sans-serif;
+    padding-bottom: 120px;
+    padding-top: 55px;
+}
+.mainSayTitle h3 {
+    color: #7c7c7c;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.mainSayTitle h1 {
+    text-transform: uppercase;
+    color: #494949;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.mainSayTitle .line {
+    width: 30px;
+    height: 3px;
+    background-color: #2eafeb;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.mainSayContent {
+    position: relative;
+    height: 500px;
+}
+.mainSayContent .mainSayContentBox {
+    position: relative;
+    position: absolute;
+    width: 730px;
+    left: 50%;
+    margin-left: -365px;
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+    font-family: "raleway", sans-serif;
+    z-index: 100;
+}
+.mainSayContent .mainSayContentBox.two {
+    left: 45%;
+    z-index: 99;
+}
+.mainSayContent .mainSayContentBox.three {
+    left: 55%;
+    z-index: 98;
+}
+.mainSayContent .mainSayContentBox.four {
+    left: 40%;
+    z-index: 97;
+}
+.mainSayContent .mainSayContentBox.five {
+    left: 60%;
+    z-index: 96;
+}
+.mainSayContent .mainSayContentBox .mainSayContentBoxImage {
+    position: absolute;
+    left: 50%;
+    margin-left: -55px;
+    top: -55px;
+} 
+.mainSayContent .mainSayContentBox h3 {
+    padding-top: 90px;
+    font-size: 20px;
+    color: #494949;
+}
+.mainSayContent .mainSayContentBox h5 {
+    font-size: 15px;
+    color: #7c7c7c;
+    font-weight: 500;
+    padding-bottom: 45px;
+}
+.mainSayContent .mainSayContentBox p {
+    width: 570px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #7c7c7c;
+    line-height: 160%;
+    padding-bottom: 110px;
+}
+.buttons {
+    padding-top: 35px;
+    padding-bottom: 110px;
+    display: flex;
+    width: 250px;
+    margin: 0 auto;
+}
+.buttons p {
+    margin: 0 15px;
+    font-family: "raleway", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.mainGreatContent {
+    display: flex;
+    justify-content: space-between;
+}
+.mainGreatContent .mainGreatContentText {
+    font-family: "raleway", sans-serif;
+    color: #7c7c7c;
+    padding: 180px 0;
+}
+.mainGreatContent .mainGreatContentText h2 {
+    font-size: 22px;
+    padding-bottom: 25px;
+}
+.mainGreatContent .mainGreatContentText h1 {
+    font-size: 32px;
+    color: #494949;
+    padding-bottom: 30px;
+}
+.mainGreatContent .mainGreatContentText h4 {
+    width: 450px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+.mainGreatContent .mainGreatContentText p {
+    font-size: 14px;
+    width: 450px;
+    line-height: 170%;
+}
+.mainGreatContent .mainGreatContentImage {
+    padding-top: 165px;
+}
+.mainGreatContent .mainGreatContentImage img {
+    margin-right: 30px;
+}
+.mainPrice {
+    background-image: url(img/BG.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 1000px; */
+}
+.mainPriceTitle {
+    text-align: center;
+    font-family: "roborto slab", sans-serif;
+    padding-bottom: 100px;
+    padding-top: 65px;
+}
+.mainPriceTitle h3 {
+    color: #7c7c7c;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.mainPriceTitle h1 {
+    text-transform: uppercase;
+    color: #494949;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.mainPriceTitle .line {
+    width: 30px;
+    height: 3px;
+    background-color: #2eafeb;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.mainPriceContent {
+    display: flex;
+    justify-content: space-around;
+}
+.mainPriceContent .mainPriceContentBox {
+    width: 320px;
+    background-image: url("img/BG1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    text-align: center;
+    font-family: "raleway", sans-serif;
+    margin-bottom: 150px;
+}
+.mainPriceContent .mainPriceContentBox.two {
+    margin-top: -20px;
+    margin-bottom: 110px;
+    box-shadow: #494949 0 0 30px 3px;
+}
+.mainPriceContent .mainPriceContentBox.two p {
+    padding-bottom: 25px;
+}
+.mainPriceContent .mainPriceContentBox.two a {
+    margin-bottom: 50px;
+}
+.mainPriceContent .mainPriceContentBox.two .price {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.mainPriceContent .mainPriceContentBox.two .price h1 {
+    font-size: 80px;
+}
+.mainPriceContent .mainPriceContentBox.two .priceImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+}
+.mainPriceContent .mainPriceContentBox .priceImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.mainPriceContent .mainPriceContentBox h5 {
+    font-size: 16px;
+}
+.mainPriceContent .mainPriceContentBox .price {
+    color: #2eb0ec;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    padding-bottom: 35px;
+    padding-top: 20px;
+}
+.mainPriceContent .mainPriceContentBox .price h4 {
+    font-size: 20px;
+}
+.mainPriceContent .mainPriceContentBox .price h1 {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 40px;
+}
+.mainPriceContent .mainPriceContentBox .price h3 {
+    line-height: 100px;
+}
+.mainPriceContent .mainPriceContentBox p {
+    font-size: 14px;
+    color: #808080;
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+.mainPriceContent .mainPriceContentBox a {
+    width: 150px;
+    background-color: #65d3f3;
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "raleway", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 30px;
+}
+.mainSub {
+    text-align: center;
+}
+.mainSubTitle {
+    font-family: "roborto slab", sans-serif;
+    padding: 70px 0;
+}
+.mainSubTitle h3 {
+    color: #7c7c7c;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.mainSubTitle h1 {
+    text-transform: uppercase;
+    color: #494949;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.mainSubTitle .line {
+    width: 30px;
+    height: 3px;
+    background-color: #2eafeb;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.mainSub form input {
+    display: block;
+    margin: 0 auto;
+    width: 370px;
+    height: 75px;
+    border-radius: 50px;
+    font-family: "raleway", sans-serif;
+    border: none;
+    background-color: #f5faf9;
+    margin-bottom: 25px;
+    box-shadow: #bcbebe 0 0 20px 0.1px;
+}
+.mainSub form {
+    padding-bottom: 110px;
+    border-bottom: #dfdfdf 2px solid;
+    border-radius: 2px;
+}
+.mainSub form input::placeholder {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+.mainSub form input[type="submit"] {
+    background-color: #65d3f3;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    margin: 0 auto;
+    box-shadow: none;
+}
+.footNavContent {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "raleway", sans-serif;
+    font-size: 14px;
+    color: #7c7c7c;
+    padding-bottom: 65px;
+    border-bottom: #dfdfdf 2px solid;
+    border-radius: 2px;
+}
+.footNavContent .footNavInfo {
+    margin-left: 30px;
+}
+.footNavContent .footNavInfo p {
+    width: 210px;
+    line-height: 180%;
+    padding: 20px 0;
+    font-weight: 500;
+}
+.footNavContent .footNavInfo .social img {
+    padding-right: 10px;
+}
+.footNavContent .footNavs h3 {
+    color: #494949;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+.footNavContent .footNavs ul {
+    width: 135px;
+    margin-right: 30px;
+}
+.footNavContent .footNavs ul li {
+    list-style: none;
+    padding-bottom: 15px;
+}
+.footNavContent .footNavs ul li a {
+    color: #7c7c7c;
+    text-decoration: none;
+    font-weight: 500;
+}
+.footer ul {
+    padding-top: 25px;
+    padding-bottom: 30px;
+    margin-left: 30px;
+}
+.footer ul li {
+    display: inline-block;
+    font-size: 14px;
+    font-family: "raleway", sans-serif;
+    padding-right: 15px;
+    margin-right: 15px;
+    border-right: solid #7b7b7b 1px;
+    line-height: 20px;
+}
+.footer .none {
+    border: none;
+}
